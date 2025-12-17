@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maqueta con Bootstrap </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="prueba2.css">
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+    <div class="container">
+
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <a class="navbar-brand mx-lg-auto fw-bold" href="#">DISCO</a>
+
+
+      <div class="d-flex align-items-center gap-2 order-lg-3">
+        <button class="btn btn-outline-secondary btn-sm">Buscar</button>
+        <button class="btn btn-primary btn-sm">Login</button>
+      </div>
+
+      <div class="collapse navbar-collapse order-lg-1" id="navMain">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#">Training</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Certifications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">NetAcad</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <section class="container my-4">
+    <div class="card text-white border-0">
+      <img class="card-img hero-img"
+           src="images\jumbotron4.png"
+           alt="Ofertas de Cursos en Informática" loading="lazy">
+      <div class="card-img-overlay hero-overlay d-flex flex-column justify-content-end p-4">
+        <h1 class="card-title display-6 fw-bold">Cisco Networking Academy</h1>
+        <p class="card-text col-md-7">Ciclos formativos especializados en Informática</p>
+        <div class="d-flex gap-2">
+          <a class="btn btn-primary" href="#">Explorar</a>
+          <a class="btn btn-outline-light" href="#">Ver cursos</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container my-5">
+
+    <div class="row align-items-center g-4 mb-4 reveal">
+      <div class="col-12 col-md-6">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="h5 fw-bold">Adminsitración de Sistemas Informáticos en Red (ASIR)</h2>
+            <p class="mb-0">En ASIR aprenderás a administrar sistemas operativos, diseñar y mantener redes seguras, gestionar bases de datos y aplicaciones web, y garantizar la ciberseguridad y la alta disponibilidad de los sistemas, asegurando entornos informáticos estables, eficientes y protegidos.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <img class="schem-img"
+             src="images\asir2.png"
+             alt="Esquema" loading="lazy">
+      </div>
+    </div>
+
+
+    <div class="row align-items-center g-4 mb-4 reveal">
+      <div class="col-12 col-md-6 order-md-2">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="h5 fw-bold">Desarrollo de Aplicaciones Web (DAW)</h2>
+            <p class="mb-0">En Desarrollo de Aplicaciones Web aprenderás a programar sitios y aplicaciones web completas, gestionar bases de datos, diseñar interfaces atractivas y funcionales, y desarrollar soluciones seguras tanto en cliente como en servidor, llevando proyectos reales a producción con una orientación clara al entorno profesional.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 order-md-1">
+        <img class="schem-img"
+             src="images\daw2.png"
+             alt="Esquema" loading="lazy">
+      </div>
+    </div>
+
+
+    <div class="row align-items-center g-4 mb-4 reveal">
+      <div class="col-12 col-md-6">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="h5 fw-bold">Desarrollo de Aplicaciones Moviles (DAM)</h2>
+            <p class="mb-0">En Desarrollo de Aplicaciones Multiplataforma aprenderás a programar aplicaciones desde la base, gestionar bases de datos, diseñar interfaces intuitivas y desarrollar soluciones móviles y multiplataforma que funcionen en distintos sistemas y dispositivos, con una clara orientación profesional.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <img class="schem-img"
+             src="images\dam.png"
+             alt="Esquema" loading="lazy">
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="container my-5 reveal">
+    <div class="p-4 p-md-5 bg-light rounded-3 border">
+      <h2 class="h4 fw-bold">FRASE CELEBRE  </h2>
+      <p class="mb-0">Bloque simplificado (equivale a 2 filas sin complejidad).</p>
+    </div>
+  </section>
+
+
+  <section class="container my-5">
+    <h2 class="h5 fw-bold mb-3">Profesores</h2>
+    <div class="row g-3">
+
+      <div class="col-12 col-md-3 reveal">
+        <button class="btn p-0 w-100 text-start" data-bs-toggle="collapse" data-bs-target="#c1">
+          <img class="w-100 rounded-3"
+               src="images\prof1_700x600.jpg"
+               alt="Recurso 1" loading="lazy">
+        </button>
+        <div id="c1" class="collapse mt-2">
+          <div class="card card-body">MiduDev - Profesor de DAW</div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3 reveal">
+        <button class="btn p-0 w-100 text-start" data-bs-toggle="collapse" data-bs-target="#c2">
+          <img class="w-100 rounded-3"
+               src="images\prof2_700x600.jpg"
+               alt="Recurso 2" loading="lazy">
+        </button>
+        <div id="c2" class="collapse mt-2">
+          <div class="card card-body">Network Chuck - Profesor de ASIR</div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3 reveal">
+        <button class="btn p-0 w-100 text-start" data-bs-toggle="collapse" data-bs-target="#c3">
+          <img class="w-100 rounded-3"
+               src="images\prof3_700x600.jpg"
+               alt="Recurso 3" loading="lazy">
+        </button>
+        <div id="c3" class="collapse mt-2">
+          <div class="card card-body">Pelado Nerd - Profesor de DAM</div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3 reveal">
+        <button class="btn p-0 w-100 text-start" data-bs-toggle="collapse" data-bs-target="#c4">
+          <img class="w-100 rounded-3"
+               src="images/prof4_700x600.jpg"
+               alt="Recurso 4" loading="lazy">
+        </button>
+        <div id="c4" class="collapse mt-2">
+          <div class="card card-body">Yoda - Profesor de PRL</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+ 
+  <footer class="container my-5 border-top pt-4">
+    <div class="d-none d-md-flex align-items-center gap-3">
+      <span class="text-muted">Síguenos:</span>
+      <a class="btn btn-outline-secondary btn-sm" href="#">Twitter</a>
+      <a class="btn btn-outline-secondary btn-sm" href="#">LinkedIn</a>
+      <a class="btn btn-outline-secondary btn-sm" href="#">YouTube</a>
+      <a class="btn btn-outline-secondary btn-sm" href="#">Instagram</a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Efecto scroll -->
+  <script>
+    const items = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('is-visible'); });
+    }, { threshold: 0.15 });
+    items.forEach(el => io.observe(el));
+  </script>
+
+</body>
+</html>
